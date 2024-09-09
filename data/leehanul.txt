@@ -1,0 +1,754 @@
+Current  Optics  and  Photonics
+
+Vol.  4,  No.  6,  December  2020,  pp.  540-544
+
+ISSN:  2508-7266(Print)  /  ISSN:  2508-7274(Online)
+
+DOI:  https://doi.org/10.3807/COPP.2020.4.6.540
+
+An  Analysis  on  the  Range  of  Singular  Fusion  of  Augmented  Reality  Devices
+
+Hanul  Lee,  Minyoung  Park,  Hyeontaek  Lee,  and  Hee-Jin  Choi*
+
+Department  of  Physics  and  Astronomy,  Sejong  University,  Seoul  05006,  Korea
+
+(Received  September  29,  2020  :  revised  October  12,  2020  :  accepted  October  14,  2020)
+
+Current  two-dimensional  (2D)  augmented  reality  (AR)  devices  present  virtual  image  and  
+information
+to a fixed focal plane, regardless of the various locations of ambient objects of interest around 
+the observer.
+This limitation can lead to a visual discomfort caused by misalignments between the view of the 
+ambient
+object  of  interest  and  the  visual  representation  on  the  AR  device  due  to  a  failing  
+of  the  singular  fusion.
+Since  the  misalignment  becomes  more  severe  as  the  depth  difference  gets  greater,  it  
+can  hamper  visual
+understanding of the scene, interfering with task performance of the viewer. Thus, we analyzed the 
+range
+of    singular fusion (RSF) of AR images within which viewers can perceive the shape of an object 
+presented
+on  two  different  depth  planes  without  difficulty  due  to  the  failure  of  singular  
+fusion.  It  is  expected  that
+our  analysis  can  inspire  the  development  of  advanced  AR  systems  with  low  visual  
+discomfort.
+
+Keywords :  Augmented  reality,  Range  of  singular  fusion,  Visual  discomfort
+
+OCIS  codes :  (100.6890)  Three-dimensional  image  processing;  (110.2990)  Image  formation  
+theory;
+(110.3000)  Image  quality  assessment
+
+
+I.  INTRODUCTION
+
+The augmented reality (AR) device is designed to project
+virtual  information  on  the  ambient  object  of  interest.  Thus,
+it      is  essential  to  align  the  AR information  and  the  ambient
+object  of  interest  so  as  to  satisfy  alignment  accurately  in
+order  to  increase  the  efficiency  and  safety  by  minimizing
+the movement of the primary gaze of the observer. In other
+words,  a  singular  fusion  of  the  AR  information  and  the
+ambient  object  is  necessary,  which  means  a  condition  that
+the  perception  of  two  depth  positions  can  be  fused  into  a
+single view without  diplopia (double vision)  is a  key factor
+to  satisfy  the  above  requirement.  However,  since  current
+two-dimensional  (2D)  AR  devices  only  present  the  virtual
+information   to   a   fixed   focal   plane,   the   observer   will
+recognize  a  misalignment  between  the  2D  AR  image  and
+the  object  of  interest  due  to  the  failure  of  singular  fusion
+when  there  is  a  certain  gap  between  them  as  shown  in
+Fig.  1.  Although  Panum’s  fusional  area  is  well  known  as
+a  condition  for  comfort  fusion  without  diplopia,  the  study
+cannot be directly applied for a viewing condition of current
+AR  applications  such  as  head-up  display  (HUD)  or  head-
+
+mounted display (HMD) because they project AR images at
+farther  distances  than  for  the  cases  of  previous  study  [1].
+In  order  to  resolve  the  misalignment  issue  between  the
+AR  image  and  the  real  object  described  above,  various
+approaches  have  been  proposed.  For  example,  an  infinite
+focus   technique   turns   out   to   be   useful   to   prevent   the
+problem  of  blurred  vision  [2].  The  light  field  AR  display
+technology  is  also  expected  to  be  a  practical  resolution  to
+be commercialized in the near future [3-6]. In addition, the
+holographic  AR  display  is  also  considered  to  be  an  ideal
+solution  [7-10].  Nevertheless,  even  the  latest  3D  AR  tech-
+niques  described  above  still  have  limited  accuracy  when
+matching  the  positions  of  AR  images  with  the  real  objects
+due  to  the  limitations  such  as  restricted  design  parameters
+of   optical   combiner   and   resolution   of   display   devices.
+Besides,  although it  is  understood that  the accommodation-
+vergence   (A-V)   mismatch   problem   can   be   resolved   by
+applying  one  of  the  3D AR display  techniques  above  [11],
+the misalignment  shown in Fig. 1 due to the failed singular
+fusion can still induce a visual fatigue when the AR image
+and the real object are not within a range of singular fusion
+
+(RSF).
+
+*Corresponding  author:  hjchoi@sejong.ac.kr,  ORCID  0000-0002-6482-9358
+Color  versions  of  one  or  more  of  the  figures  in  this  paper  are  available  online.
+
+This is an Open Access article distributed under the terms of the Creative  Commons  Attribution 
+Non-Commercial  License (http://creativecommons.org/
+licenses/by-nc/4.0/)  which  permits  unrestricted  non-commercial  use,  distribution,  and  
+reproduction  in  any medium, provided the original work is
+properly         cited.
+
+Copyright     2020 Current Optics and Photonics
+
+- 540 -
+
+
+An  Analysis  on  the  Range  of  Singular  Fusion  of  Augmented  Reality  Devices  -  Hanul  Lee  
+et  al.                          541
+
+AR image
+
+
+Object 1
+
+AR image
+
+Object 2
+(Pedestrian)
+
+AR image
+
+Original
+information
+
+1st  random
+dot pattern
+
+2nd  random
+dot pattern
+
+
+Left-eye view                                              Right-eye view
+
+FIG. 1. A case with a failure of singular fusion of the ambient
+object (pedestrian) and the AR image.
+
+AR image
+
+Object 2
+(Pedestrian)
+
+FIG. 3. Examples of randomly encoded patterns including an
+original information of a single digit number.
+
+achieve  fusion.  For  that  purpose,  we  designed a  task-based
+experimental  scheme  to  use  two  randomly  encoded  dot
+patterns   as an AR image and a real image to include visual
+information of a single digit  number from 0 to 9.  Figure 3
+shows  some  examples  of  the  dot  patterns  encoded from an
+image  of  a  single  digit  number.
+
+Figures  4(a)  and  4(b)  show  the  proposed  experimental
+
+st
+
+scheme. The 1   dot pattern is reflected by the beam splitter
+
+
+Object 1
+
+and  shown  to  the  observer  as  a  virtual  (AR)  image,  while
+
+nd
+
+the  2    dot  pattern  is  seen  through  the  beam  splitter  as  a
+
+
+AR image
+
+AR image
+
+real image. Thus, the observer can see an overlapped feature
+of  those  images  as  in  using  an  HUD.  Then,  we  asked  the
+observer  to  fuse  the  dot  patterns  and  answer  what  the
+single digit  number  (the original  information)  is.  Since  it  is
+necessary  for  the  observer  to  fuse  the  patterns  at  different
+locations  accurately  to  decode  the  original  information,  we
+can determine whether the observer succeeded in making a
+singular  fusion  or  not.  In  addition,  to  eliminate  the  effect
+of   the  previous  trials,  the  random  dot  patterns  are  newly
+
+
+Left-eye view                                              Right-eye view
+
+FIG. 2. A case with a singular fusion of the ambient object
+(pedestrian) and the AR image within the RSF.
+
+Therefore,  to  develop  advanced  AR  systems  with  low
+visual  discomfort  as  shown  in  Fig.  2,  it  is  necessary  to
+analyze   the   RSF   without   recognizing   the   misalignment.
+For  that  purpose,  we  design  an  experimental  scheme  to
+derive  the  RSF  with  a  practical  viewing  distance  which
+can  cover  the  projection  range  of  current  AR  applications.
+
+II.  DESIGN  OF  EXPERIMENTAL  SCHEME
+
+As  denoted  above,  we  define  the  RSF  as  a  range  where
+both   the   AR   image   and   the   object   within   it   can   be
+combined   together   through   a   singular   fusion   without   a
+diplopia.  Thus,  the  experimental  apparatus  should  provide
+a sensitive cue whether the observer succeeded or failed to
+
+generated for every trial. Thus, we can assume that those dot
+patterns  were  inside  the  RSF  when  the  observer  responds
+with a correct  answer  as shown in Fig.  4(a).  In contrast,  if
+the  observer  was  not  able  to  respond  with  a  correct  single
+digit  number,  we  assume  that  there  is  a  failure  of  singular
+fusion  and  conclude  that  the  real  image  is  not  within  the
+RSF  as  shown  in  Fig.  4(b).  As  a  result,  by  analyzing  the
+proportion  correct  of  the  proposed  task,  we  can  define  the
+RSF  as  the  maximal  distance  ∆d  between  the  AR  image
+and  the  real  image  with  a  singular  fusion.
+
+III.  EXPERIMENTS
+
+The  experimental  setup  is  set  to  float  the  virtual  AR
+image  via  the  beam  splitter  with  a  projection  distance  L =
+1200 mm (0.83 diopter (D)) from the observer, which is set
+to be similar to the viewing condition of current combiner-
+type   commercial   HUDs.   The   gap   ∆d   between   the   AR
+image  and  the  real  image  varies  from  -0.21  D  to  0.21  D
+
+
+542                                                                                  Current  
+Optics  and  Photonics,  Vol.  4,  No.  6,  December  2020
+
+
+Original
+information
+
+2nd  dot pattern
+(Real image)
+
+
+Original
+information
+
+2nd  dot pattern
+(Real image)
+
+
+1st  dot pattern
+(AR image)
+
+∆d
+
+RSF
+
+∆l
+
+L
+
+1st  dot pattern
+(AR image)
+
+∆d
+
+RSF
+
+∆l
+
+L
+
+
+Beam
+splitter
+
+Beam
+splitter
+
+1st  dot pattern                                                                                    
+                          1ˢᵗ dot pattern
+
+
+Singular  fusion
+
+(a)                                                                                                 
+    (b)
+
+Failure of
+singular fusion
+
+FIG. 4. Design of experimental scheme to check a success/ failure of singular fusion by a 
+recognition of two randomly encoded dot
+patterns as the AR image and the real image: (a) a case with a success of singular fusion and (b) a 
+case with a failure of singular fusion.
+
+
+TABLE 1. Experimental conditions with varying Δd
+
+Real image panel
+
+
+Experimental
+conditions
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+L
+
+D        mm
+
+Δd
+
+D        mm
+
+-0.21      404
+
+-0.18      331
+
+-0.15      263
+
+-0.12      202
+
+-0.09      145
+
+-0.06        93
+
+Δl
+
+D        mm
+
+0.62     1604
+
+0.65     1531
+
+0.68     1463
+
+0.71     1402
+
+0.74     1345
+
+0.77     1293
+
+AR image panel
+
+Folded mirrors
+
+Beam splitter
+
+Optical path of
+AR image
+
+Optical path of
+real image
+
+
+7
+
+8              0.83
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+1200
+
+-0.03
+
+0.00
+
++0.03
+
++0.06
+
++0.09
+
++0.12
+
++0.15
+
++0.18
+
++0.21
+
+45
+
+0
+
+-42
+
+-81
+
+-117
+
+-151
+
+-183
+
+-213
+
+-242
+
+0.80
+
+0.03
+
+0.86
+
+0.89
+
+0.92
+
+0.95
+
+0.98
+
+1.01
+
+1.04
+
+1245
+
+1200
+
+1158
+
+1119
+
+1083
+
+1049
+
+1017
+
+987
+
+958
+
+FIG. 5. Picture of experimental setup to provide the AR and
+the real images.
+
+condition of central gaze. In the experiments, seven subjects
+between the ages of 24-28 with normal vision have partici-
+pated  and  we  collected  their  responses  for  each  experi-
+mental  condition  (∆d)  for  analysis.
+
+The  picture  of  the  experimental  setup  is  shown  in  Fig.
+
+5.  The  basic  structure  of  the  setup  consists  of  two  display
+panels,  a  beam splitter,  and  folded  mirrors.  The  AR  image
+and  the  real  images  are  displayed  on  the  corresponding
+display  panels  and  combined  by  the  beam  splitter  to  be
+
+
+(from  404  mm  to  -242  mm)  with  an  interval  of  0.03  D  to
+provide  15  steps  of  difference  as  shown  in  Table  1.  The
+dot  patterns  are  composed  of  18  by  18  black  and  white
+dots  and  have  an  angular  size  of  approximately  3  degree
+(actual  size of 60 mm when Δl = 1200 mm) to guarantee a
+
+observed. The folded mirrors are used to reduce the volume
+of  the  setup  as  for  commercial  HUDs.  For  each  experi-
+mental condition with different  ∆d, the angular sizes of the
+AR  image  and  the  real  image  were  matched  by  adjusting
+the  actual  size  of  the  real  image  while  fixing  that  of  the
+
+
+An  Analysis  on  the  Range  of  Singular  Fusion  of  Augmented  Reality  Devices  -  Hanul  Lee  
+et  al.                          543
+
+
+AR  image  to  be  approximately  60  mm.  For  that  purpose,
+we  used two 28-inch 4K (3840 × 2160)  display  panels  with
+pixel  pitch  of  0.162  mm  since  an  accurate  size  control
+of  the  real  image  by  an  order  of  a  single  pixel  pitch  is
+necessary  for  a  correct  matching  of  angular  sizes.  The
+other  parameters  such  as  luminance,  contrast,  and  color  of
+two  dot  patterns  (the  AR  image  and  the  real  image)  were
+also  matched  to  image  to  prevent  unexpected  distortion.
+
+With  the  experimental  setup  described  above,  first  we
+let  the subjects use only a monocular  vision to analyze the
+effect of accommodation only. The purpose of the monocular
+vision  test  is  to  check  whether  the  range  of  experimental
+conditions ∆d is really within the Percival’s zone of comfort
+by  analyzing  the  effect  of  accommodation  only  [12].  The
+experimental  results  in  Fig.  6(a)  show  that  all  subjects
+reported  a  100%  correct  proportion  for  all  experimental
+conditions  except  an  irregular  case  when  ∆d  is  +0.18  D.
+
+However,   since   the   average   proportion   correct   of   that
+irregular  case  is  also  approximately  100%,  we  can  expect
+that  all  subjects  felt  almost  no  difficulty  in  combining  the
+AR image and the real image regardless of the varying gap
+
+∆d between them. Besides, the average time to respond was
+also  recorded  and  plotted  in  Fig.  6(b).  The  results  in  Fig.
+6(b)  indicate  that  all  subjects  have  spent  about  one  second
+before  responding  for  all  ∆d.  Thus,  from  the  results  in
+Figs.  6(a)  and  6(b)  showing  cases  of  the  monocular  vision
+test,  we  can  confirm that  both  the  AR and  the  real  images
+were  well  combined  by  the  observer  for  all  conditions  of
+
+∆d  from  -0.21  D  to  +0.21  D  in  our  experimental  scheme.
+In other words,  we can experimentally confirm through the
+monocular vision test that the varying range of experimental
+conditions  ∆d  is  within  the  Percival’s  zone  of  comfort  and
+the A-V mismatch  will  not  be a major  concern in the next
+tests  using  binocular  vision.  Therefore,  we  can  focus  on
+
+Average  proportion correct (%)                                                                     
+                                       Average  proportion correct (%)
+
+
+100
+
+80
+
+100
+
+80
+
+∗∗: p < 0.01
+
+∗∗∗: p < 0.001
+
+60                                                                                                  
+                                                                              60
+
+
+40                                                                                                  
+                                                                              40
+
+20                                                                                                  
+                                                                              20
+
+***
+
+***
+
+***
+
+**
+
+**                                            ***
+
+*** ***
+
+***
+
+***
+
+
+0
+
+− 0.18    −0.12     − 0.06        0       +0.06      +0.12    +0.18
+
+∆d  (D)
+
+(a)
+
+0
+
+− 0.18    −0.12     − 0.06        0       +0.06      +0.12    +0.18
+
+∆d  (D)
+
+(a)
+
+Average  time to respond (sec.)                                                                     
+                                    Average  time to respond (sec.)
+
+5                                                                                                   
+                                            5
+
+4                                                                                                   
+                                            4
+
+3                                                                                                   
+                                            3
+
+2                                                                                                   
+                                            2
+
+1                                                                                                   
+                                            1
+
+
+0
+
+− 0.18    −0.12     − 0.06        0       +0.06      +0.12    +0.18
+
+∆d (D)
+
+(b)
+
+FIG. 6. The experimental results based on monocular vision:
+
+(a) average proportion correct and (b) average time to respond.
+
+0
+
+− 0.18   −0.12     − 0.06        0       +0.06      +0.12    +0.18
+
+∆d (D)
+
+(b)
+
+FIG. 7. The experimental results based on binocular vision:
+
+(a) average proportion correct and (b) average time to respond.
+
+
+544                                                                                  Current  
+Optics  and  Photonics,  Vol.  4,  No.  6,  December  2020
+
+
+binocular  fusion  for  the  next  tests.
+
+The  experimental  results  of  binocular  vision  tests  are
+shown in Fig. 7(a). As denoted above, the binocular fusion
+is  a  major  factor  to  affect  the  result.  Thus,  it  is  expected
+that  the  results  in  Fig.  7(a)  have  a  correlation  with  the
+RSF  to  induce  a  singular  fusion.  In  Fig.  7(a),  unlike  the
+case  in  Fig.  6(a),  the  results  show  a  clear  tendency  that
+the  average  proportion  correct  decreases  steeply  when  |∆d|
+is  over  0.06  D.  The  statistical  analysis  based  on  p-value
+also  shows  that  the  subjects  were  able  to  report  a  correct
+answer within that  range only when ∆d is from -0.06 D to
+
++0.06 D.  Therefore,  based on these results,  we can assume
+that  the RSF with the given experimental  scheme is within
+the  range  of  |∆d| < 0.06  D.  In  addition,  it  should  be  also
+notified that the derived RSF is narrower than the previous
+studies  about  the  zone  of  comfort,  which  means  that  the
+A-V  mismatch  is  not  the  only  concern  to  induce  visual
+discomfort  [12,  13].  Besides,  the  average  times  to  respond
+are  shown  in  Fig.  7(b)  with  a  tendency  which  is  clearly
+different  with  the  results  in  Fig  6(b).  Though  the  large
+variances  of  the  results  in  Fig.  7(b)  make  the  statistical
+analysis  impossible,  we  can  still  expect  that  they  reflect
+the  difficulty  in  decoding  the  original  information  due  to
+the  failure  of  singular  fusion.  Though  the  RSF  can  be
+changed  when  the  blurring  and  misalignment  will  be  less
+severe  as  the  projection  distance  L  is  increased,  we  expect
+that  the  RSF  is  still  meaningful  for  that  case  since  there
+will be a certain misalignment between the AR images and
+the  ambient  objects.
+
+IV.  CONCLUSION
+
+A  singular  fusion  of  the  AR  image  and  the  ambient
+object   is   essential   to   reduce   the   visual   fatigue   of   the
+observer  using  AR  applications.  However,  current  2D  AR
+devices   cannot   satisfy   that   condition   due   to   the   fixed
+position  of  the  focal  plane  where  the  2D planar  AR image
+is  projected.  Thus,  various  approaches  of  3D  AR  devices
+were  announced  to  resolve  the  problem  above  by  control-
+ling  the  depths  of  AR  images  to  match  the  locations  of
+them  with  the  ambient  objects.  In  this  paper,  we  designed
+a  task-based  experimental  scheme  and  derived  the  RSF
+within  which  the  AR  image  and  the  real  object  can  be
+combined   together   through   a   singular   fusion   without   a
+visual discomfort. Though there have been previous studies
+about  the  comfort  zone  of  binocular  visual  stimuli  [1,  12],
+our study has a novel  impact  covering a viewing condition
+of  current  commercial  AR application such as  HUD,  which
+had  not  been  considered  in  previous  studies.  Though  a
+case  with  fixed  projection  distance  was  analyzed  in  this
+paper,  more  analysis  with  various  positions  of  the  AR
+image  and  the  ambient  object  will  be  meaningful  as  future
+studies.  We  expect  that  the  results  can  be  helpful  for  the
+development  of  advanced  3D  AR  devices  with  low  visual
+discomfort.
+
+ACKNOWLEDGMENT
+
+This  work  was  supported  in  part  by  the  Information
+Technology   Research   Center   (ITRC)   support   Program
+supervised  by  the  Institute  for  Information  and  Communi-
+cations Technology Promotion (IITP) under Grant IITP-2017-
+2015-0-00448,  and  in  part  by  the  Basic  Science  Research
+Program   through   the   National   Research   Foundation   of
+Korea  (NRF)  funded  by  the  Ministry  of  Education  under
+Grant  2018R1D1A1B07049563.  We also thank Dr.  Joohwan
+Kim  and  Dr.  Jae-Hyun  Jung  for  their  valuable  comments
+and  advice.
+
+REFERENCES
+
+1.  K. N. Ogle, Researches in Binocular Vision (W. B. Saunders,
+Philadelphia,  USA,  1950).
+
+2.  C.  Jang,  K.  Bang,  S.  Moon,  J.  Kim,  S.  Lee,  and  B.  Lee,
+“Retinal  3D:  augmented  reality  near-eye  display  via  pupil-
+tracked light  field projection on retina,” ACM Trans.  Graph.
+36,  190  (2017).
+
+3.  J.  Hong,  S.-W.  Min,  and  B.  Lee,  “Integral  floating  display
+systems  for  augmented  reality,”  Appl.  Opt.  51,  4201-4209
+(2012).
+
+4.  H.  Hua  and  B.  Javidi,  “A  3D  integral  imaging  optical  see-
+through  head-mounted  display,”  Opt.  Express  22,  13484-
+13491  (2014).
+
+5.  Y.  Takaki  and  Y.  Yamaguchi,  “Flat-panel  type  see-through
+three-dimensional  display  based  on  integral  imaging,”  Opt.
+Lett.                40,  1873-1876  (2015).
+
+6.  Y. Yamaguchi and Y. Takaki, “See-through integral imaging
+display  with  background  occlusion  capability,”  Appl.  Opt.
+55,  A144-A149  (2016).
+
+7.  H.-J.  Yeom,  H.-J.  Kim,  S.-B.  Kim,  H.  Zhang,  B.  Li,  Y.-M.
+Ji, S.-H Kim, and J.-H Park, “3D holographic head mounted
+display  using  holographic  optical  elements  with  astigmatism
+aberration  compensation,”  Opt.  Express   23,  32025-32034
+(2015).
+
+8.  G.  Li,  D.  Lee,  Y.  Jeong,  J.  Cho,  and B.  Lee,  “Holographic
+display  for  see-through  augmented  reality  using  mirror-lens
+holographic optical element,” Opt. Lett.  41, 2486-2489 (2016).
+
+9.  K. Hong, J. Yeom, C. Jang, J. Hong, and B. Lee, “Full-color
+lens-array holographic optical  element for three-dimensional
+optical see-through augmented reality,” Opt. Lett. 39, 127-130
+(2014).
+
+10.  K.  Hong,  J.  Yeom,  C.  Jang,  G.  Li,  J.  Hong,  and  B.  Lee,
+“Two-dimensional  and  three-dimensional  transparent  screens
+based   on   lens-array   holographic   optical   elements,”   Opt.
+Express  22,  14363-14374  (2014).
+
+11.  G. Kramida, “Resolving the vergence-accommodation conflict
+in head-mounted displays,” IEEE Trans. Vis. Comput. Graph.
+22,  1912-1931  (2016).
+
+12.  A.  S.  Percival,  “The  relation  of  convergence  to  accommo-
+dation and its  practical  bearing,” Ophthal.  Rev.  11,  313-328
+(1892).
+
+13.  T. Shibata, J.  Kim,  D. M. Hoffman, and M. S.  Banks,  “The
+zone  of  comfort:  Predicting  visual  discomfort  with  stereo
+displays,”  J.  Vis.  11,  11  (2011).
+
