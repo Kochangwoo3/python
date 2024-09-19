@@ -12,6 +12,10 @@
 # https://www.hanbit.co.kr/member/login_proc.php
 # 방식 : POST
 
+
+# urllib.request - 파이썬표준라이브러리, 구조약간복잡, http메서드 등을 직접 구현
+# requests - 직관적이며 간단한 코드로 복잡한 요청처리가능
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -34,4 +38,6 @@ login_info = {
 response = session.post(url, data=login_info)
 response.raise_for_status()
 print(response.text)
+
+
 
